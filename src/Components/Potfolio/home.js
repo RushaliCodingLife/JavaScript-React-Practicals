@@ -10,10 +10,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-
-
-
-
 function myFunction() {
   document.getElementById("demo").innerHTML = "Hello World";
   console.log("hii");

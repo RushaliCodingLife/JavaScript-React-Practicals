@@ -502,3 +502,49 @@ p.demos {
   background-color: #396456fe;
   border: 1px solid #396456fe;
 }
+.portfolio_project {
+  float: left;
+  width: 1920px;
+  overflow-y: auto;
+  height: 938px;
+  overflow-x: hidden;
+}
+
+.about_progressBar {
+  margin-bottom: 130px;
+}
+
+/* Card */
+.project_card {
+  transition: transform 0.2 ease;
+  box-shadow: 04px 10px 25px rgb(39, 41, 43, 0.2);
+  border-radius: 0;
+  margin-bottom: 1.5em;
+}
+
+.project_card:hover {
+  transform: scale(1.1);
+}
+
+/* contact section */
+
+.contact {
+  color: #149ddd;
+}
+
+.contact:hover {
+  color: #6eafdd;
+}
+/* 
+.contact_head{
+  color: #015e5e;
+} */
+
+.Card_container {
+  min-height: 744px;
+}
+
+/* form */
+.about_textArea {
+  width: 540px;
+}
